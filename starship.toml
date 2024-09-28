@@ -1,0 +1,57 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+$directory $git_branch
+$character
+"""
+
+right_format = """$time$battery"""
+continuation_prompt = '>'
+add_newline = false
+palette = 'blues'
+
+[palettes.blues]
+# that was a lie
+red = '#ff5257'
+blue = '#a7bcee'
+coral = '#de8874'
+weird_orange = '#d8a31a'
+lv = '#a698dc'
+
+[character]
+success_symbol = '[❯](bold blue)'
+error_symbol = '[❯](bold red)'
+
+
+[battery]
+full_symbol = '􀛨  '
+charging_symbol = '􀢋  '
+discharging_symbol = '􀺶  '
+unknown_symbol = '?'
+empty_symbol = '􀛪  '
+format = '[$symbol$percentage]($style)'
+
+[[battery.display]]
+threshold = 10
+style = 'red'
+
+[[battery.display]]
+threshold = 100
+style = 'blue'
+
+[time]
+disabled = false
+format = '[$time]($style)'
+use_12hr = false
+time_format = '[%H:%M >-< %d/%m]'
+style = 'blue'
+
+[directory]
+format = '[$path](bold $style)'
+read_only_style = 'weird_orange'
+style = 'blue'
+truncation_length = 2
+
+[git_branch]
+format = '[\[](bold $style)[$symbol$branch](bold $style)[\]](bold $style)'
+style = 'lv'
