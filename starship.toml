@@ -12,14 +12,15 @@ palette = 'blues'
 
 [palettes.blues]
 # that was a lie
-red = '#ff5257'
-blue = '#a7bcee'
-coral = '#de8874'
+red = '#f38ba8'
+blue = '#89b4fa'
+coral = '#fab387'
 weird_orange = '#d8a31a'
-lv = '#a698dc'
+ma = '#cba6f7'
+lv = '#b4befe'
 
 [character]
-success_symbol = '[❯](bold blue)'
+success_symbol = '[❯](bold ma)'
 error_symbol = '[❯](bold red)'
 
 
@@ -29,7 +30,7 @@ charging_symbol = '􀢋  '
 discharging_symbol = '􀺶  '
 unknown_symbol = '?'
 empty_symbol = '􀛪  '
-format = '[$symbol$percentage]($style)'
+format = '[$symbol$percentage](bold $style)'
 
 [[battery.display]]
 threshold = 10
@@ -37,19 +38,19 @@ style = 'red'
 
 [[battery.display]]
 threshold = 100
-style = 'blue'
+style = 'ma'
 
 [time]
 disabled = false
 format = '[$time]($style)'
 use_12hr = false
 time_format = '[%H:%M >-< %d/%m]'
-style = 'blue'
+style = 'bold ma'
 
 [directory]
 format = '[$path](bold $style)'
 read_only_style = 'weird_orange'
-style = 'blue'
+style = 'ma'
 truncation_length = 2
 
 [git_branch]

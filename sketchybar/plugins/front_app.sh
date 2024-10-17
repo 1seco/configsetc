@@ -5,6 +5,11 @@
 # focused application in the $INFO variable:
 # https://felixkratz.github.io/SketchyBar/config/events#events-and-scripting
 
+
 if [ "$SENDER" = "front_app_switched" ]; then
-  sketchybar --set "$NAME" label="$INFO"
+  # echo "$INFO" >> /Users/jebediahkerman/sketchylog 
+  INFC=$(echo "$INFO" | cut -c1)
+  UC=$(echo "$INFC" | tr '[:lower:]' '[:upper:]')
+  # echo "$UC" >> /Users/jebediahkerman/sketchylog
+  sketchybar --set "$NAME" label="$UC"
 fi

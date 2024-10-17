@@ -6,6 +6,8 @@ cmd - m : open -a beeper.app
 
 cmd + shift - m : open -a localsend.app
 
+cmd - e : open -a Obsidian.app
+
 ctrl + shift - i : $HOME/.bin/togglebar.sh
 
 alt + shift - p : screencapture $HOME/ScreenC/ScreenC.jpg
@@ -25,6 +27,9 @@ fn + alt - 4 : skhd -t →
 fn + alt - 5 : skhd -t ¬
 
 fn + alt - 6 : skhd -t ↔
+
+
+
 # focus window
 alt - x : yabai -m window --focus recent
 alt - h : yabai -m window --focus west
@@ -60,10 +65,10 @@ shift + alt - left   : yabai -m window --grid 1:2:0:0:1:1
 shift + alt - right  : yabai -m window --grid 1:2:1:0:1:1
 
 # create desktop, move window and follow focus - uses jq for parsing json (brew install jq)
-# shift + cmd - n : yabai -m space --create && \
-#                   index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
-#                   yabai -m window --space "${index}" && \
-#                   yabai -m space --focus "${index}"
+shift + cmd - n : yabai -m space --create && \
+                  index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
+                  yabai -m window --space "${index}" && \
+                  yabai -m space --focus "${index}"
 
 # create desktop and follow focus - uses jq for parsing json (brew install jq)
 cmd + alt - n : yabai -m space --create && \
