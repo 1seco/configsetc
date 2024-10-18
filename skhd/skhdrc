@@ -28,7 +28,7 @@ fn + alt - 5 : skhd -t ¬
 
 fn + alt - 6 : skhd -t ↔
 
-
+cmd + shift - s : open -a sol.app
 
 # focus window
 alt - x : yabai -m window --focus recent
