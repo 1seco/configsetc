@@ -1,0 +1,49 @@
+Script started on Sun Oct 20 22:10:20 2024
+Command: fastfetch --logo void
+[1m[32m                __.;=====;.__
+            _.=+==++=++=+=+===;.
+             -=+++=+===+=+=+++++=_
+        .     -=:``     `--==+=++==.
+       _vi,    `            --+=++++:
+      .uvnvi.       _._       -==+==+.
+     .vvnvnI`    .;==|==;.     :|=||=|.
+[30m+QmQQm[32mpvvnv;[30m _yYsyQQWUUQQQm #QmQ#[32m:[30mQQQWUV$QQm.
+ [30m-QQWQW[32mpvvo[30mwZ?.wQQQE[32m==<[30mQWWQ/QWQW.QQWW[32m(:[30m jQWQE
+  [30m-$QQQQmmU'  jQQQ[32m@+=<[30mQWQQ)mQQQ.mQQQC[32m+;[30mjWQQ@'
+   [30m-$WQ8Y[32mnI:[30m   QWQQwgQQWV[32m`[30mmWQQ.jQWQQgyyWW@!
+     [32m-1vvnvv.     `~+++`        ++|+++
+      +vnvnnv,                 `-|===
+       +vnvnvns.           .      :=-
+        -Invnvvnsi..___..=sv=.     `
+          +Invnvnvnnnnnnnnvvnn;.
+            ~|Invnvnvvnvvvnnv}+`
+               -~|{*l}*|~[m[1G[17A[m[?7l[49C[m[1m[32mjebediahkerman[m@[1m[32mSiddharths-MacBook-Air[m
+[49C-------------------------------------
+[49C[m[1m[37mOS[m: [mmacOS Sonoma 14.7 arm64
+[49C[m[1m[37mHost[m: [mMacBook Air (M1, 2020)
+[49C[m[1m[37mKernel[m: [mDarwin 23.6.0
+[49C[m[1m[37mUptime[m: [m3 days, 7 hours, 54 mins
+[49C[m[1m[37mPackages[m: [m62 (brew), 15 (brew-cask)
+[49C[m[1m[37mShell[m: [mscript
+[49C[m[1m[37mDisplay (Color LCD)[m: [m3360x2100 @ 60 Hz (as 1680x1050) in 13″ [Built-in]
+[49C[m[1m[37mDE[m: [mAqua
+[49C[m[1m[37mWM[m: [mQuartz Compositor
+[49C[m[1m[37mWM Theme[m: [mMulticolor (Dark)
+[49C[m[1m[37mFont[m: [m.AppleSystemUIFont [System], Helvetica [User]
+[49C[m[1m[37mCursor[m: [mFill - Black, Outline - White (32px)
+P+q6b697474792d71756572792d76657273696f6e\[49C[m[1m[37mTerminal[m: [mkitty 0.36.4
+P+q6b697474792d71756572792d666f6e745f66616d696c79\P+q6b697474792d71756572792d666f6e745f73697a65\[49C[m[1m[37mTerminal Font[m: [mFiraCodeNFM-Reg (13pt)
+[49C[m[1m[37mCPU[m: [mApple M1 (8) @ 3.20 GHz
+[49C[m[1m[37mGPU[m: [mApple M1 (7) [Integrated]
+[49C[m[1m[37mMemory[m: [m6.22 GiB / 8.00 GiB ([93m78%[m)
+[49C[m[1m[37mSwap[m: [m441.31 MiB / 1.00 GiB ([32m43%[m)
+[49C[m[1m[37mDisk (]8;;file:///\/]8;;\)[m: [m81.61 GiB / 228.27 GiB ([32m36%[m) - apfs [Read-only]
+[49C[m[1m[37mLocal IP (en0)[m: [m192.168.18.5/24
+[49C[m[1m[37mBattery[m: [m[93m40%[m [Discharging]
+[49C[m[1m[37mLocale[m: [men_US.UTF-8
+[49C
+[49C[m[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+[49C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
+[?7h
+Command exit status: 0
+Script done on Sun Oct 20 22:10:20 2024

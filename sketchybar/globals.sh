@@ -14,14 +14,14 @@ export SB_BAR=(
   sticky=on
   topmost=on
   shadow=on
-  y_offset=0
+  y_offset=2
   margin=0
   padding_left=16
   padding_right=16
   color="$OX_BG"
   border_color="$OX_MA"
   border_width=2
-  corner_radius=10
+  corner_radius=9
   font_smoothing=on
 )
 

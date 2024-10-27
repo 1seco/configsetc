@@ -3,6 +3,9 @@
 CONFIG_DIR="$HOME/.config/sketchybar"
 ./"$CONFIG_DIR/globals.sh"
 
+A_TIME=0
+D_TIME=0
+B_TIME=0
 
 sb_separator() {
 	sepName="sep$RANDOM"
@@ -10,19 +13,19 @@ sb_separator() {
 		--add item "$sepName" "$1" \
 		--set "$sepName" \
 		\
-		label="───────" \
+		label="────────" \
 		padding_left="$2" \
 		padding_right="$3" \
 		icon.drawing=off \
 		label.font.size=9.0 \
-		label.color="$OX_TX"
+		label.color="$OX_TX" \
+		label.align=center 
 }
 
 sb_clock() {
 	sketchybar \
 		--add item clock "$1" \
 		--set clock \
-		\
 		update_freq=10 \
 		label.font.size=14.0 \
 		icon.drawing=off \
@@ -31,9 +34,9 @@ sb_clock() {
 
 sb_date() {
 	sketchybar \
-		--add item day "$1" --set day update_freq=120 icon.drawing=off padding_right=4 label="$(date '+%a')" \
-		--add item date "$1" --set date update_freq=120 icon.drawing=off padding_right=4 label="$(date '+%d' | sed s/^0//)" \
-		--add item month "$1" --set month update_freq=120 icon.drawing=off padding_right=4 label="$(date '+%b')"
+		--add item day "$1" --set day update_freq=120 icon.drawing=off padding_right=4 script="A_DATE=$(date '+%a')" label="$A_DATE"\
+		--add item date "$1" --set date update_freq=120 icon.drawing=off padding_right=4 script="D_DATE=$(date '+%d')" \
+		--add item month "$1" --set month update_freq=120 icon.drawing=off padding_right=4 script="B_DATE=$(date '+%b')"
 }
 
 

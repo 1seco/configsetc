@@ -8,7 +8,7 @@ cmd + shift - m : open -a localsend.app
 
 cmd - e : open -a Obsidian.app
 
-ctrl + shift - i : $HOME/.bin/togglebar.sh
+ctrl + shift - i : $HOME/.local/bin/togglebar.sh
 
 alt + shift - p : screencapture $HOME/ScreenC/ScreenC.jpg
 
@@ -28,7 +28,7 @@ fn + alt - 5 : skhd -t ¬
 
 fn + alt - 6 : skhd -t ↔
 
-cmd + shift - s : open -a sol.app
+# cmd + shift - s : open -a sol.app
 
 # focus window
 alt - x : yabai -m window --focus recent
