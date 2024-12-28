@@ -34,9 +34,9 @@ sb_clock() {
 
 sb_date() {
 	sketchybar \
-		--add item day "$1" --set day update_freq=120 icon.drawing=off padding_right=4 script="A_DATE=$(date '+%a')" label="$A_DATE"\
-		--add item date "$1" --set date update_freq=120 icon.drawing=off padding_right=4 script="D_DATE=$(date '+%d')" \
-		--add item month "$1" --set month update_freq=120 icon.drawing=off padding_right=4 script="B_DATE=$(date '+%b')"
+		--add item day "$1" --set day update_freq=120 icon.drawing=off padding_right=4 script="$PLUGIN_DIR/date.sh" \
+		--add item date "$1" --set date update_freq=120 icon.drawing=off padding_right=4 script="$PLUGIN_DIR/date.sh" \
+		--add item month "$1" --set month update_freq=120 icon.drawing=off padding_right=4 script="$PLUGIN_DIR/date.sh"
 }
 
 

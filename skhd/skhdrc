@@ -1,4 +1,5 @@
-cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~ &> /dev/null 
+
+cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
 
 cmd + shift - return : librewolf &> /dev/null;
 
@@ -11,8 +12,6 @@ cmd - e : open -a Obsidian.app
 ctrl + shift - i : $HOME/.local/bin/togglebar.sh
 
 alt + shift - p : screencapture $HOME/ScreenC/ScreenC.jpg
-
-cmd + shift - m : open -a finder.app
 
 cmd + shift - 0x29 : open -a settings
 
@@ -29,6 +28,7 @@ fn + alt - 5 : skhd -t ¬
 fn + alt - 6 : skhd -t ↔
 
 # cmd + shift - s : open -a sol.app
+
 
 # focus window
 alt - x : yabai -m window --focus recent
@@ -175,8 +175,8 @@ shift + alt - f : yabai -m window --toggle native-fullscreen
 alt - e : yabai -m window --toggle split
 
 # float / unfloat window and restore position
-alt - t : yabai -m window --toggle float && /tmp/yabai-restore/$(yabai -m query --windows --window | jq -re '.id').restore 2>/dev/null || true
-# alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
+#alt - t : yabai -m window --toggle float && /tmp/yabai-restore/$(yabai -m query --windows --window | jq -re '.id').restore 2>/dev/null || true
+alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
 
 # toggle sticky (show on all spaces)
 alt - o : yabai -m window --toggle sticky
